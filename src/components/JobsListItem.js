@@ -2,10 +2,16 @@ import React, {Component} from "react";
 
 import "./JobsListItem.css";
 
+import {withRouter} from "react-router-dom";
+
 class JobsListItem extends Component {
+	clickHandler() {
+		this.props.history.push("/jobs/" + this.props.id);
+	}
+
 	render() {
 		return (
-			<div className="JobsListItem">
+			<div className="JobsListItem" onClick={this.clickHandler.bind(this)}>
 				<div className="left">
 					<b>{this.props.title}</b>
 					<div>{this.props.company}</div>
@@ -20,4 +26,4 @@ class JobsListItem extends Component {
 	}
 }
 
-export default JobsListItem;
+export default withRouter(JobsListItem);

@@ -1,3 +1,7 @@
+Instruction links:
+Part 1: https://docs.google.com/document/d/1-KL87vDij6AFz1dL0dY-dT_Y-CQ4CwXyQFgPD5qKBt8/edit
+Part 2: https://docs.google.com/document/d/1cfMjr4jQCpQDOTC2DH9v2qGtWZBQCLCj91PNm596fV4/edit
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
